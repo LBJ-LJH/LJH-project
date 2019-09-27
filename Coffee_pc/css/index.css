@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+    /*text-align: center;*/
+}
+
+/*首页头部样式*/
+header {
+    height: 80px;
+    /* background-color: #ccc; */
+}
+
+header h1 {
+    width: 145px;
+    height: 80px;
+    float: left;
+    margin-left: 46px;
+}
+
+header img {
+    /*display: block;
+    height: 80px;
+    width: 100%;
+    vertical-align: top;*/
+}
+
+nav {
+    width: 752px;
+    height: 80px;
+    float: right;
+}
+
+.nav-lis1 {
+    text-align: center;
+}
+
+nav li {
+    height: 80px;
+    width: 20%;
+    line-height: 80px;
+    float: left;
+}
+
+.nav-lis {
+    text-align: center;
+}
+
+nav li:hover a {
+    border-bottom: 5px solid #866961;
+}
+
+nav a {
+    font-size: 18px;
+    /* display: inline-block; 根据a标签宽度底边框自适应写法
+    min-width: 120px; */
+    display: block;
+    height: 75px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #866961;
+}
+
+/*banner图区域样式*/
+#banner-box img {
+    display: block;
+    width: 100%;
+    /*height: 598px;*/
+}
+
+/*关于我们区域样式*/
+.about_us-box {
+    /*width: 100%;*/
+    overflow: hidden;
+    height: 793px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.title-English {
+    text-align: center;
+    font-size: 12px;
+}
+
+.coffee-pic {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.about_us-box1 {
+    position: absolute;
+    top: 180px;
+    left: 61px;
+    width: 401px;
+    height: 518px;
+    border: 1px solid #333;
+}
+
+.aboutUs-img {
+    position: absolute;
+    top: 164px;
+    left: 77px;
+}
+
+.about_us-box2 {
+    width: 695px;
+    height: 533px;
+    /*position: absolute;
+	top: 164px;*/
+    float: right;
+    margin-top: 30px;
+}
+
+.about_us-box2 h3 {
+    font-size: 22px;
+    font-weight: 100px;
+    font-family: "宋体";
+    color: #333;
+    margin-bottom: 48px;
+}
+
+.about_us-box2 p {
+    margin-top: 20px;
+    text-indent: 2em;
+    text-align: left;
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+    width: 600px;
+}
+
+.box02 {
+    height: 120px;
+    width: 100%;
+}
+
+.box02 img {
+    width: 100%;
+    /*height: 120px;*/
+    display: block;
+}
+
+/*产品介绍区域样式*/
+.product-box {
+    /* width: 1200px; */
+    overflow: hidden;
+    height: 663px;
+}
+
+.product-pic-box {
+    width: 100%;
+    height: 500px;
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #ccc; */
+}
+
+.product-pic-box div {
+    width: 327px;
+    height: 500px;
+    /* background-color: #ccc; */
+    text-align: center;
+}
+
+.product-pic-box div:hover img {
+    opacity: 0.5;
+}
+
+.product-pic-box div:hover h3 {
+    color: #333333;
+}
+
+.product-pic-box div:hover p {
+    color: #333333;
+}
+
+.product-pic-box h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #666;
+}
+
+.product-pic-box p {
+    font-size: 14px;
+    color: #666;
+    height: 25px;
+    line-height: 25px;
+}
+
+/*团队成员区域样式*/
+.box-03 {
+    width: 100%;
+    height: 783px;
+    background-color: #f9f9f9;
+}
+
+.team-box {
+    overflow: hidden;
+    height: 783px;
+    /* background-color: red; */
+}
+
+.team-pic-box {
+    width: 1114px;
+    height: 508px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.team-pic-box > div {
+    width: 245px;
+    height: 508px;
+}
+
+.team-pic-box img {
+    display: block;
+}
+
+.team-p {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-top: none;
+    height: 102px;
+    width: 245px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.team-p h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #333;
+}
+
+.team-p span {
+    /* font-size: 12px; */
+    color: white;
+    display: none;
+    /* height: 3px; */
+}
+
+.team-name {
+    font-size: 12px;
+    color: #333;
+}
+
+.team-infos {
+    display: none;
+    font-size: 12px;
+    color: white;
+}
+
+.team-pic-box > div:hover img {
+    opacity: 0.6;
+}
+
+.team-pic-box > div:hover .team-p {
+    background-color: #3c3c3c;
+}
+
+.team-pic-box > div:hover h3 {
+    margin: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.team-pic-box > div:hover span {
+    display: block;
+}
+
+.team-pic-box > div:hover .team-name {
+    display: none;
+}
+
+.team-pic-box > div:hover .team-infos {
+    display: block;
+}
+
+/*联系我们区域样式*/
+.callme-box {
+    height: 545px;
+    overflow: hidden;
+}
+
+#allmap {
+    height: 344px;
+    width: 662px;
+    overflow: hidden;
+}
+
+.address-box {
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 1078px;
+    height: 344px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #ccc; */
+}
+
+.address-infos {
+    float: right;
+    width: 380px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address-infos h4 {
+    font-size: 18px;
+    color: #494949;
+}
+
+.address-infos span {
+    font-size: 12px;
+    color: #a1a1a1;
+}
+
+.address-infos p {
+    font-size: 13px;
+    color: #494949;
+}
+
+.address-infos > div {
+    display: flex;
+}
+
+.ads-pic {
+    width: 48px;
+    height: 48px;
+}
+
+.ads-info {
+    padding-left: 10px;
+}
+
+/*底部区域样式*/
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #866961;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+}
+
+.copy-box {
+    height: 80px;
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-main {
+    display: none;
+}
+
+.page-main-block {
+    display: block;
+}
